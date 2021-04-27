@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="utf-8">
+	<title>example1-1</title>
+	<script src="js/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript">
+		$(document).ready(function(){
+          $('#dtd').css('background','red');
+
+	      $('#dtd').click(function(){
+	        $('#dtd').css('background','green');
+	      });
+	  });
+	</script>
+</head>
+<body>
+    <div id="dtd">
+    	<img class="pic" src="img/test1.jpeg"></div>
+	
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="utf-8">
+	<title>example1-2</title>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function(){
+          $("#btn1").click(function(){
+			  alert("Text:" + $("#test").text());
+		  });
+		  $("#btn2").click(function(){
+			  alert("HTML:" + $("#test").html());
+		  });
+		});
+	</script>
+</head>
+<body>
+    <p id="test">This is some <b>bold</b> text in a paragraph.</p>
+    <button id= "btn1">Show Text</button>
+	<button id="btn2">Show HTML</button>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>example1-2</title>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<style>
+	.red{
+	  color: red;
+	}
+	</style>
+	<script type="text/javascript">
+	  $(document).ready(function(){
+		  $("div").html("<span class='red'>Hello <b>Again</b></span>");
+	  });
+	</script>
+</head>
+<body>
+    <div></div>
+	<div></div>
+	<div></div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>example1-2</title>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script>
+	  $(document).ready(function(){
+	    $("btn1").click(function(){
+		  alert("Value:" + $("#test2").val());
+		});
+		$("btn2").click(function(){
+		  $("test2").val("DTD");
+	  });
+	});
+	</script>
+</head>
+<body>
+    <div></div>
+	<div></div>
+	<div></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
